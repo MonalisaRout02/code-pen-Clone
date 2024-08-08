@@ -17,6 +17,8 @@ const Editor = (props) => {
     } = props
 
     const [open, setOpen]= useState(true);
+
+    
     function handleChange(editor,data,value){
         onChange(value)
     }
